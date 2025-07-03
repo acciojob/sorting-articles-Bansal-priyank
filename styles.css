@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+	font-family: Arial, sans-serif;
+	background: url('') no repeat center center fixed;
+	background-size: color;
+	color: #333;
+	padding: 50px;	
+}
+
+ul#band {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 400px;
+  padding: 20px;
+  list-style: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+ul#band li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+ul#band li:last-child {
+  border-bottom: none;
+}
+
+
